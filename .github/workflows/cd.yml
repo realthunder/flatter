@@ -1,11 +1,11 @@
 name: Continuous Deployment
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-    paths: [dist/**]
+  # push:
+  #   branches: [main]
+  # pull_request:
+  #   branches: [main]
+  #   paths: [dist/**]
   workflow_dispatch:
 
 jobs:
