@@ -70976,6 +70976,7 @@ async function buildApplication(directory, manifest) {
         `--arch=${core.getInput('arch')}`,
         '--ccache',
         '--disable-rofiles-fuse',
+        '--verbose',
         '--force-clean',
         `--repo=${directory}`,
         `--state-dir=${stateDir}`,
