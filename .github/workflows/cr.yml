@@ -7,9 +7,9 @@ on:
   # pull_request:
   #   branches: [main]
   #   paths: [Dockerfile]
-  schedule:
-    # Once a week
-    - cron: "0 0 * * */7"
+  # schedule:
+  #   # Once a week
+  #   - cron: "0 0 * * */7"
   workflow_dispatch:
 
 jobs:
